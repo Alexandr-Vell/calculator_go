@@ -245,7 +245,7 @@ func generNum(a int) []string {
 }
 
 func main() {
-	fmt.Println("Введите 2 значения и оператор (Например: 1+1): ")
+	fmt.Println("Введите 2 значения и оператор через пробел (Например: 1 + 1): ")
 	a, operator, b := inputValues()
 	fmt.Println(responseLang(a, operator, b))
 
